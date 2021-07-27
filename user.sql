@@ -1,0 +1,8 @@
+CREATE TABLE user (
+    id INT(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    firstname VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    userlevel VARCHAR(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
